@@ -1,0 +1,34 @@
+[
+    
+{
+    "id": 101 ,
+    "name" : "fazi",
+    "company" :"Provility",
+    "phone": 12233445
+
+},
+
+{
+    "id": 102 ,
+    "name" : "shafi",
+    "company" :"Provility",
+    "phone": 12233446
+
+},
+
+{
+    "id": 103 ,
+    "name" : "faiyaz",
+    "company" :"Provility",
+    "phone": 12233447
+
+},
+
+{
+    "id": 104 ,
+    "name" : "umar",
+    "company" :"Provility",
+    "phone": 12233448
+
+}
+]
