@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.css">
+
+</head>
+<body>
+    <div class="container">
+        <form id="emp-form">
+            <div>
+                <label for="name">Employee Name</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+            <div>
+                <label for="designation">Employee Designation</label>
+                <input type="text" id="job" class="u-full-width">
+            </div>
+            <div>
+                <label for="salary">Employee Salary</label>
+                <input type="number" id="salary" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit"  id="submit" value="submit">
+                <button id="update"  > update</button>
+                </div>
+
+        </form>
+      
+
+        <table id="table" class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Employee Designation</th>
+                    <th>Salary</th>
+                    <th>update</th>
+                    <th>Delete</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="emp-list"></tbody>
+        </table>
+    </div>
+    
+</body>
+<script src="employee.js"></script>
+</html>
